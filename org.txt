@@ -1,0 +1,231 @@
+.
+├── classifica.py
+├── contagemClasses.txt
+├── dataset_classificacao
+│   └── 1_Muito_Desgastada
+│       ├── 1_Muito_Desgastada_Bento_a.jpg
+│       ├── 1_Muito_Desgastada_SEMID_a.jpeg
+│       ├── 1_Muito_Desgastada_SEMID_b.jpeg
+│       └── 1_Muito_Desgastada_SEMID_c.jpeg
+├── dataset_classificado
+├── dataset_original
+│   ├── 1. Muito Desgastada
+│   │   ├── Andrade Neves
+│   │   │   └── a
+│   │   │       ├── 1_ANa2.jpg
+│   │   │       ├── 1_ANa3.jpg
+│   │   │       └── 1_ANa.jpg
+│   │   ├── Bento 
+│   │   │   ├── a
+│   │   │   │   ├── 1_2.jpg
+│   │   │   │   ├── 1_4.jpg
+│   │   │   │   └── 1_8.jpg
+│   │   │   ├── i
+│   │   │   │   └── 1_20.jpg
+│   │   │   └── j
+│   │   │       ├── 1_a23.jpg
+│   │   │       └── 1_a6.jpg
+│   │   ├── Felix
+│   │   │   ├── a
+│   │   │   │   ├── 1_a0.jpg
+│   │   │   │   ├── 1_a1.jpg
+│   │   │   │   ├── 1_a3.jpg
+│   │   │   │   ├── 1_b0.jpg
+│   │   │   │   ├── 1_b2.jpg
+│   │   │   │   ├── 1_b3.jpg
+│   │   │   │   └── 1_b4.jpg
+│   │   │   ├── b
+│   │   │   │   ├── 1_a11.jpg
+│   │   │   │   ├── 1_a12.jpg
+│   │   │   │   └── 1_a4.jpg
+│   │   │   ├── c
+│   │   │   │   ├── 1_a4.jpg
+│   │   │   │   └── 1_a5.jpg
+│   │   │   └── e
+│   │   │       └── 1_a7.jpg
+│   │   ├── Goncalves
+│   │   │   └── 1_c10.jpeg
+│   │   ├── Neto
+│   │   │   ├── a
+│   │   │   │   └── 1_b1.jpg
+│   │   │   ├── b
+│   │   │   │   └── 1_c3.jpeg
+│   │   │   ├── c
+│   │   │   │   ├── 1_b2.jpg
+│   │   │   │   ├── 1_b3.jpg
+│   │   │   │   └── 1_b4.jpg
+│   │   │   └── d
+│   │   │       └── 1_c1.jpeg
+│   │   ├── Osorio
+│   │   │   ├── a
+│   │   │   │   ├── 1_0.jpg
+│   │   │   │   ├── 1_12.jpg
+│   │   │   │   ├── 1_5.jpg
+│   │   │   │   └── 1_7.jpg
+│   │   │   ├── b
+│   │   │   │   ├── 1_10.jpg
+│   │   │   │   ├── 1_11.jpg
+│   │   │   │   ├── 1_1.jpg
+│   │   │   │   └── 1_3.jpg
+│   │   │   └── c
+│   │   │       └── 1_c1.jpeg
+│   │   └── SEMID
+│   │       ├── a
+│   │       │   └── 1_c0.jpeg
+│   │       ├── b
+│   │       │   └── 1_c2.jpeg
+│   │       └── c
+│   │           └── 1_c4.jpeg
+│   ├── 2. Desgastada
+│   │   ├── Anchieta
+│   │   │   ├── 2_b11.jpg
+│   │   │   └── 2_c7.jpeg
+│   │   ├── AndradeNeves
+│   │   │   ├── b
+│   │   │   │   ├── 2_ANb2.jpg
+│   │   │   │   └── 2_ANb.jpg
+│   │   │   └── c
+│   │   │       └── 2_ANc.jpeg
+│   │   ├── Barroso
+│   │   │   ├── a
+│   │   │   │   ├── 2_12.jpg
+│   │   │   │   ├── 2_26.jpg
+│   │   │   │   ├── 2_34.jpg
+│   │   │   │   └── 2_35.jpg
+│   │   │   ├── b
+│   │   │   │   ├── 2_23.jpg
+│   │   │   │   ├── 2_27.jpg
+│   │   │   │   └── 2_28.jpg
+│   │   │   ├── c
+│   │   │   │   └── 2_c8.jpeg
+│   │   │   └── d
+│   │   │       └── 2_c11.jpeg
+│   │   ├── Bento 
+│   │   │   ├── b
+│   │   │   │   ├── 2_0.jpg
+│   │   │   │   ├── 2_2.jpg
+│   │   │   │   └── 2_33.jpg
+│   │   │   ├── c
+│   │   │   │   ├── 2_11.jpg
+│   │   │   │   ├── 2_15.jpg
+│   │   │   │   ├── 2_31.jpg
+│   │   │   │   ├── 2_3.jpg
+│   │   │   │   └── 2_9.jpg
+│   │   │   ├── d
+│   │   │   │   ├── 2_21.jpg
+│   │   │   │   ├── 2_22.jpg
+│   │   │   │   └── 2_7.jpg
+│   │   │   ├── e
+│   │   │   │   ├── 2_10.jpg
+│   │   │   │   ├── 2_18.jpg
+│   │   │   │   └── 2_8.jpg
+│   │   │   └── k
+│   │   │       └── 2_29.jpg
+│   │   ├── Deodoro
+│   │   │   ├── a
+│   │   │   │   ├── 2_1.jpg
+│   │   │   │   └── 2_27.jpg
+│   │   │   └── b
+│   │   │       ├── 2_16.jpg
+│   │   │       ├── 2_32.jpg
+│   │   │       ├── 2_5.jpg
+│   │   │       └── 2_6.jpg
+│   │   ├── DomPedro
+│   │   │   └── 2_c9.jpeg
+│   │   ├── Felix
+│   │   │   ├── d
+│   │   │   │   ├── 2_14.jpg
+│   │   │   │   ├── 2_24.jpg
+│   │   │   │   ├── 2_4.jpg
+│   │   │   │   ├── 2_a16.jpg
+│   │   │   │   ├── 2_b0.jpg
+│   │   │   │   ├── 2_b12.jpg
+│   │   │   │   └── 2_b5.jpg
+│   │   │   └── f
+│   │   │       ├── 2_b13.jpg
+│   │   │       ├── 2_b6.jpg
+│   │   │       └── 2_b8.jpg
+│   │   ├── GaleriaMalcom
+│   │   │   └── 2_c6.jpeg
+│   │   ├── mapilary
+│   │   │   ├── 2_a0.jpg
+│   │   │   ├── 2_a10.jpeg
+│   │   │   ├── 2_a13.jpg
+│   │   │   ├── 2_a17.jpg
+│   │   │   ├── 2_a18.jpg
+│   │   │   ├── 2_a1.jpg
+│   │   │   ├── 2_a20.jpeg
+│   │   │   ├── 2_a21.jpg
+│   │   │   ├── 2_a22.jpg
+│   │   │   ├── 2_a2.jpg
+│   │   │   ├── 2_a3.jpeg
+│   │   │   ├── 2_a5.jpg
+│   │   │   ├── 2_a8.jpg
+│   │   │   └── 2_a9.jpg
+│   │   ├── Porto
+│   │   │   └── 2.jpg
+│   │   └── Voluntarios
+│   │       └── 2_c4.jpeg
+│   └── 3. Conservada
+│       ├── Barroso
+│       │   └── e
+│       │       ├── 3_10.jpg
+│       │       ├── 3_30.jpg
+│       │       └── 3_38.jpg
+│       ├── Bento 
+│       │   ├── f
+│       │   │   ├── 3_17.jpg
+│       │   │   ├── 3_24.jpg
+│       │   │   └── 3_B.jpg
+│       │   ├── g
+│       │   │   ├── 3_A2.jpg
+│       │   │   └── 3_A.jpg
+│       │   ├── l
+│       │   │   ├── 3_3.jpg
+│       │   │   ├── 3_6.jpg
+│       │   │   └── 3_9.jpg
+│       │   ├── m
+│       │   │   ├── 3_23.jpg
+│       │   │   └── 3_34.jpg
+│       │   ├── n
+│       │   │   ├── 3_0.jpg
+│       │   │   ├── 3_33.jpg
+│       │   │   └── 3_37.jpg
+│       │   ├── p
+│       │   │   ├── 3_31.jpg
+│       │   │   └── 3_35.jpg
+│       │   ├── q
+│       │   │   ├── 3_15.jpg
+│       │   │   └── 3_26.jpg
+│       │   ├── x
+│       │   │   ├── 3_11.jpg
+│       │   │   ├── 3_16.jpg
+│       │   │   ├── 3_2.jpg
+│       │   │   ├── 3_8.jpg
+│       │   │   ├── 3_a18.jpg
+│       │   │   ├── 3_a22.jpg
+│       │   │   └── 3_a6.jpg
+│       │   └── z
+│       │       ├── 3_13.jpg
+│       │       ├── 3_19.jpg
+│       │       ├── 3_5.jpg
+│       │       ├── 3_a16.jpg
+│       │       ├── 3_a1.jpg
+│       │       ├── 3_a4.jpg
+│       │       ├── 3_a5.jpg
+│       │       └── 3_a8.jpg
+│       └── Mapilary
+│           ├── 3_a0.jpeg
+│           ├── 3_a12.jpeg
+│           ├── 3_a17.jpeg
+│           ├── 3_a19.jpeg
+│           ├── 3_a20.jpeg
+│           ├── 3_a2.jpeg
+│           ├── 3_a7.jpeg
+│           └── 3_a9.jpeg
+├── org.txt
+├── __pycache__
+│   └── script.cpython-312.pyc
+└── script.py
+
+73 directories, 156 files
